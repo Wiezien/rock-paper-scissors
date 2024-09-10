@@ -13,3 +13,10 @@ while True:
 
     while choice > 3 or choice < 1:
         choice = int(input('Enter a valid choice please ☺: '))
+
+    if choice == 1:
+        choice_name = 'Rock'
+    elif choice == 2:
+        choice_name = 'Paper'
+    else:
+        choice_name = 'Scissors'
