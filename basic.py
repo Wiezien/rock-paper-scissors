@@ -25,3 +25,10 @@ while True:
     print("Now it's Computer's Turn...")
 
     comp_choice = random.randint(1, 3)
+
+    if comp_choice == 1:
+        comp_choice_name = 'Rock'
+    elif comp_choice == 2:
+        comp_choice_name = 'Paper'
+    else:
+        comp_choice_name = 'Scissors'
