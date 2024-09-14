@@ -35,3 +35,12 @@ while True:
 
     print("Computer choice is:", comp_choice_name)
     print(choice_name, 'vs', comp_choice_name)
+
+    if choice == comp_choice:
+        result = "DRAW"
+    elif (choice == 1 and comp_choice == 2) or (comp_choice == 1 and choice == 2):
+        result = 'Paper'
+    elif (choice == 1 and comp_choice == 3) or (comp_choice == 1 and choice == 3):
+        result = 'Rock'
+    elif (choice == 2 and comp_choice == 3) or (comp_choice == 2 and choice == 3):
+        result = 'Scissors'
