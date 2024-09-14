@@ -44,3 +44,6 @@ while True:
         result = 'Rock'
     elif (choice == 2 and comp_choice == 3) or (comp_choice == 2 and choice == 3):
         result = 'Scissors'
+
+    if result == "DRAW":
+        print("<== It's a tie! ==>")
