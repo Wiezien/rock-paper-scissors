@@ -51,3 +51,8 @@ while True:
         print("<== User wins! ==>")
     else:
         print("<== Computer wins! ==>")
+
+    print("Do you want to play again? (Y/N)")
+    ans = input().lower()
+    if ans == 'n':
+        break
