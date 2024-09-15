@@ -49,3 +49,5 @@ while True:
         print("<== It's a tie! ==>")
     elif result == choice_name:
         print("<== User wins! ==>")
+    else:
+        print("<== Computer wins! ==>")
