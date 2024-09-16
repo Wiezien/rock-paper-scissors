@@ -55,6 +55,7 @@ while True:
     print("Do you want to play again? (Y/N)")
     ans = input().lower()
     if ans == 'n':
+        print("Thanks for playing!")
+        
         break
 
-    print("Thanks for playing!")
