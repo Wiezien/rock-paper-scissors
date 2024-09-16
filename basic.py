@@ -56,3 +56,5 @@ while True:
     ans = input().lower()
     if ans == 'n':
         break
+
+    print("Thanks for playing!")
